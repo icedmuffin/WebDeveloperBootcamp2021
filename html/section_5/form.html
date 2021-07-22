@@ -21,15 +21,44 @@
 
 
         <section>
-            <form action="">
-                <input type="text" placeholder="username">
-                <input type="password" placeholder="password">
-                <input type="color">
-                <input type="month">
-                <input type="time">
+            <form action="./table.html">
 
+                <!-- label terhubung dengan input menggunakan id yang sama -->
+                <p>
+                    <label for="username">Masukan Username :</label>
+                    <input type="text" placeholder="username" id="username">
+                </p>
+
+                <p>
+                    <label for="password">Input Passoword</label>
+                    <input type="password" placeholder="password" id="password">
+                </p>
+
+                <p>
+                    <label for="color">Pilih warna</label>
+                    <input type="color" id="color">
+                </p>
+
+                <p>
+                    <label for="bulan">Input Bulan</label>
+                    <input type="month" id="bulan">
+                </p>
+
+                <p>
+                    <label for="waktu">Input Waktu</label>
+                    <input type="time" id="waktu">
+                </p>
+
+                <!-- ini botton submit -->
+                <button>submit</button>
+                <input type="button" value="klick me">
+
+                <!-- ini button biasa yang gak submit, kita pakai type botton-->
+                <button type="button">tombol biasa</button>
 
             </form>
+
+            <button>ouside button</button>
 
         </section>
 
