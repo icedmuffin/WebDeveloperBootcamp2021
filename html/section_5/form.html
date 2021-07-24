@@ -25,28 +25,30 @@
 
                 <!-- label terhubung dengan input menggunakan id yang sama -->
                 <p>
+
+                    <!-- name digunakan untuk nama dari value dari input tersebut, ketika dikirim ke servers  -->
                     <label for="username">Masukan Username :</label>
-                    <input type="text" placeholder="username" id="username">
+                    <input type="text" placeholder="username" id="username" name="username">
                 </p>
 
                 <p>
                     <label for="password">Input Passoword</label>
-                    <input type="password" placeholder="password" id="password">
+                    <input type="password" placeholder="password" id="password" name="password">
                 </p>
 
                 <p>
                     <label for="color">Pilih warna</label>
-                    <input type="color" id="color">
+                    <input type="color" id="color" name="color">
                 </p>
 
                 <p>
                     <label for="bulan">Input Bulan</label>
-                    <input type="month" id="bulan">
+                    <input type="month" id="bulan" name="bulan">
                 </p>
 
                 <p>
                     <label for="waktu">Input Waktu</label>
-                    <input type="time" id="waktu">
+                    <input type="time" id="waktu" name="waktu">
                 </p>
 
                 <!-- ini botton submit -->
@@ -56,10 +58,71 @@
                 <!-- ini button biasa yang gak submit, kita pakai type botton-->
                 <button type="button">tombol biasa</button>
 
+                <!-- http://127.0.0.1:5500/html/section_5/table.html?username=123&password=123&color=%23ff0000&bulan=2021-02&waktu=13%3A01 -->
+
             </form>
 
             <button>ouside button</button>
 
+        </section>
+
+        <a href="./small_project.html">next</a>
+
+
+        <section>
+            <h2>part 3</h2>
+
+            <h3>input 1</h3>
+            <form action="/makanan">
+
+                <p>makanan yang pernah kamu makan</p>
+                <input type="checkbox" name="nasi_goreng" id="nasi_goreng" checked>
+                <label for="nasi_goreng">nasi goreng</label>
+
+                <input type="checkbox" name="nasi_kuning" id="nasi_kuning">
+                <label for="nasi_kuning">nasi kuning</label>
+
+                <button>submit</button>
+            </form>
+
+            <h3>input 2</h3>
+            <form action="/makanan">
+
+                <p>sudah makan ?
+                    <input type="radio" name="sudah_makan" id="sudah" value="sudah">
+                    <label for="sudah">sudah</label>
+
+                    <input type="radio" name="sudah_makan" id="belum" value="belum">
+                    <label for="belum">belum</label>
+                </p>
+
+                <p>
+                    <label for="susu">jenis susu :</label>
+                    <select name="susu" id="susu">
+
+                        <option value="">---pilih jenis susu---</option>
+                        <option value="coklat">susu coklat</option>
+                        <option value="original">susu original</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="sambel">seberapa banyak sambel</label>
+                    <input type="range" name="banyak_sambel" id="sambel" min="0" max="100" step="10" value="20">
+
+                </p>
+                <p>
+                    <label for="level">level pedes (level 0 - level 4)</label>
+                    <input type="number" name="level_pedes" id="level" min="0" max="4">
+                </p>
+
+                <p>
+                    <label for="catatan">catatan</label>
+                    <br>
+                    <textarea name="catatan" id="catatan" cols="100" rows="10"
+                        placeholder="masukan catatan kamu"></textarea>
+                </p>
+                <button>submit</button>
+            </form>
         </section>
 
     </main>
