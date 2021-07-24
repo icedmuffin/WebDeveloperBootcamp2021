@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pendaftaran Lari Marathon 2021</h1>
+    </header>
+
+    <main>
+        <section>
+            <form action="pendaftaran">
+                <div>
+                    <h2>masukan data diri</h2>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" required>
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" required>
+
+                </div>
+
+                <div>
+                    <h2>pilih tipe lomba</h2>
+                    <input type="radio" name="race_type" id="race1" value="funrun">
+                    <label for="race 1">Fun Run 5k</label>
+                    <br>
+                    <input type="radio" name="race_type" id="race2" value="half">
+                    <label for="race2">Half Marathon</label>
+                    <br>
+                    <input type="radio" name="race_type" id="race3" value="full">
+                    <label for="race3">Full Marathon</label>
+
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+
+                <div>
+                    <label for="kategori">Pilih Kategori</label>
+                    <select name="kategori" id="kategori" required>
+                        <option value="dibawah 18">dibawah 18</option>
+                        <option value="18-30">18-30</option>
+                        <option value="30-45">30-45</option>
+                        <option value="45+">45+</option>
+                    </select>
+                </div>
+
+                <button>submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- http://127.0.0.1:5500/html/section_5/pendaftaran?fname=naufal&lname=sunandar&race_type=on&email=nauf.sunandar%40gmail.com&password=123&kategori=dibawah+18 -->
+    <footer>
+        <h2>sampai jumpa di lokasi!</h2>
+    </footer>
+</body>
+
+</html>
