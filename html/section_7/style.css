@@ -64,3 +64,16 @@ li a {
 .merah a {
     color: red;
 }
+
+/* adjecent selectors */
+
+p + button {
+    background-color: pink;
+    color: #3952ad;
+}
+
+/* direct children selector | one level down */
+
+footer > a {
+    color: rgb(255, 0, 0);
+}
