@@ -77,3 +77,11 @@ p + button {
 footer > a {
     color: rgb(255, 0, 0);
 }
+
+input [type="password"]{
+    color :rgb(100, 87, 242)
+}
+
+.special{
+    background: black;
+}
