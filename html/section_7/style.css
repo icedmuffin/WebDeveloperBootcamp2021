@@ -83,5 +83,9 @@ input [type="password"]{
 }
 
 .special{
-    background: black;
+background-color: #3952ad;
+}
+
+section [class="special"]{
+    background-color: black;
 }
