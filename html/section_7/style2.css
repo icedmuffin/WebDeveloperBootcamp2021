@@ -1,0 +1,25 @@
+ 
+ /* cara bacanya semua button yang ada didalam class conten, which gw masukin di section class content
+ trus jd semua button gak perlu di kasih class2 lagi. */
+ .konten button:hover{
+     background-color: brown;
+     color: aliceblue;
+     font-size:small;
+     
+
+ }
+ .konten p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .part2{
+     font-size: larger;
+ }
+
+ .konten a{
+     font-weight: 700;
+ }
+
+ a:hover{
+     text-decoration: underline;
+ }

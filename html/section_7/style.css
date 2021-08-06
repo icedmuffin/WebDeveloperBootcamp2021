@@ -78,14 +78,30 @@ footer > a {
     color: rgb(255, 0, 0);
 }
 
-input [type="password"]{
-    color :rgb(100, 87, 242)
-}
+
 
 .special{
 background-color: #3952ad;
 }
 
-section [class="special"]{
+
+/* atribut selector */
+section[class="special"]{
     background-color: black;
+}
+/* ini alternatifnya, sama ajah dengan yang di atas */
+section.special{
+    background-color: black;
+}
+
+input[type="password"]{
+    color :rgb(171, 163, 255)
+}
+
+a[href*="google"]{
+    color: blue;
+}
+
+a[href*="sbmptn"]{
+    color: magenta;
 }
