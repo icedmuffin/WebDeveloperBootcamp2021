@@ -1,0 +1,14 @@
+/* ini adalah contoh sturktur inherit di css */
+body{
+    color: brown;
+}
+section{
+    color: darkgreen;
+}
+form{
+    color: darkorange;
+}
+
+button, input{
+    color :inherit;
+}
