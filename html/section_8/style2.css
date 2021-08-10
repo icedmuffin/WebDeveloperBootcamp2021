@@ -1,0 +1,84 @@
+section{
+    background-color: pink;
+    width: 800px;
+    height: 800px;
+    border-radius: 5px;
+}
+
+/* dalam kasus ini div berada di dalam section sehingga semua jenis referensi persentasi di ambil dari nilai pada section */
+div{
+    background-color: #4E8D7C;
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+/* kita masuk ke em unit di css */
+#ems{
+    font-size: 15px;
+}
+
+#ems h2{
+    font-size: 2em;
+}
+#ems h3{
+    font-size: 1.5em;
+}
+
+#ems p{
+    font-size: 1em;
+}
+
+.special{
+    background-color: rgb(217, 251, 252);
+}
+
+/* dalam kasus ini semua jenis ukuran seperti padding margin dan kk, menggunakan referensi dari ukuran font botton mereka */
+button{
+    font-size: 2em;
+    padding: 0.5em 3em;
+    margin: 2em;
+    border-radius: 2em;
+    border: none;
+    
+    background-color: #4E8D7C;
+    color: aliceblue;
+
+
+}
+
+button:hover{
+    background-color: pink;
+    color: navy;
+}
+
+button:active{
+    background-color: aliceblue;
+    color: #4E8D7C;
+}
+
+#ems ul{
+    font-size: 1.5em;
+}
+
+/* sekarang kita pakai unit yang lebih efektif dari pada em yaitu rem */
+
+
+#rems h2{
+    font-size: 2rem;
+}
+#rems h3{
+    font-size: 1.5rem;
+}
+
+#rems p{
+    font-size: 1rem;
+}
+
+#rems ul{
+    font-size: 1.5rem;
+}
+
+.merah{
+    background-color: #fa91a8;
+}
