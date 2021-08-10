@@ -5,10 +5,14 @@ div {
 
 h1 {
     background-color: pink;
-    width: 400px;
+    /* width: 400px; */
     margin : 0;
 
    
+}
+
+.part2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #satu{
@@ -64,3 +68,49 @@ button:active{
 body{
     margin: 0;
 }
+
+/* --------- masuk diplay property------------ */
+
+h1{
+    border: 1px solid black;
+}
+
+
+h2{
+    background-color:rgb(111, 138, 208);
+    border: 1px solid black;
+    display : inline;
+}
+
+span{
+    background-color: #cfdff4;
+    border: 1px solid black;
+    display: block;
+}
+
+.special{
+    display: inline;
+    margin: 50px;
+    padding :80px
+}
+
+h2.kecuali{
+    display: block;
+}
+
+.stabilo{
+    background-color: #F08A5D;
+}
+
+div.kotak{
+    background-color: #3F72AF;
+    border : 1px solid black;
+    width: 300px;
+    display: inline-block;
+    margin: 50px;
+}
+
+h3{
+    display: none;
+}
+
