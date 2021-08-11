@@ -1,0 +1,14 @@
+section{
+    width: 500px;
+    height : 500px;
+    background-color: pink;
+}
+
+#rgba{
+    background-color: rgba(61, 131, 61, 0.6);
+}
+/* kalau pakai hex jadinya kayak gini #00 00 00 aa, aanya itu sama mulai dari 00 sampai ff */
+#opacity{
+    background-color: #377437;
+    opacity: 0.5
+}
