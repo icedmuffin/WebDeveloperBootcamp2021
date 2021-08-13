@@ -1,0 +1,48 @@
+section{
+    font-size: medium;
+}
+div{
+    width: 100px;
+    height : 100px;
+    background-color: rgb(69, 131, 92);
+    /* border : 2px solid black; */
+    border-radius: 0.3rem;
+    margin: 10px;
+    display : inline-block;
+}
+
+#static #tengah{
+    background-color : pink ;
+    position: static;
+    top: 100px;
+}
+
+#relative #tengah{
+
+    background-color : pink ;
+    position: relative;
+    top: 50px;
+    left: -50px;
+
+}
+
+#absolute{
+    position: relative;
+}
+#absolute #tengah{
+
+    background-color : pink ;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+
+}
+
+#fixed #tengah{
+
+    background-color : pink ;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
