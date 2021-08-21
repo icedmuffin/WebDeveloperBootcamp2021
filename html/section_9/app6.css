@@ -1,0 +1,28 @@
+section{
+    /* background-image: url(https://image-cdn.medkomtek.com/3Q1KHEGYxzjKcXpKdba86CoKPzw=/1200x675/smart/klikdokter-media-buckets/medias/2322276/original/063819600_1608803266-green-palm-leaves-pink.jpg);
+    background-size: cover;
+    background-position: center; */
+
+    
+    background: url(https://image-cdn.medkomtek.com/3Q1KHEGYxzjKcXpKdba86CoKPzw=/1200x675/smart/klikdokter-media-buckets/medias/2322276/original/063819600_1608803266-green-palm-leaves-pink.jpg) center/40% no-repeat, rgb(255, 234, 244) ;
+
+    
+   
+
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: pink;
+    font-size: 3rem;
+
+
+
+
+}

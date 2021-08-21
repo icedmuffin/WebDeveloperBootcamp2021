@@ -26,6 +26,7 @@ button:hover{
     background-color: pink;
     box-shadow: 0.5em 0.5em 0em 0.01em #BFA2DB;
     transform: translateY(-0.3em);
+    cursor: pointer;
 }
 
 button:active{
