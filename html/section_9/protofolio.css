@@ -1,0 +1,51 @@
+
+body{
+    margin: 0;
+    
+ 
+
+}
+h1{
+    text-align: center;
+    border-bottom: 0.08em solid whitesmoke;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    width: 20%;
+    margin: 2rem auto;
+    color: rgb(186, 179, 179);
+}
+section{
+    align-content: center;
+    
+}
+
+img{
+    border-radius: 0.5rem;
+    width: 30%;
+    margin: 1rem calc(10%/6);
+    transition: transform 0.5s;
+   
+
+}
+
+div.kotak{
+    padding: 0.2rem;
+    /* margin-top: 1em; */
+}
+
+div.kotak:hover{
+    
+
+}
+p{
+    color: #383E56;
+    text-align: center;
+    display: block;
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+img:hover{
+    transform: scale(1.05);
+}
+
