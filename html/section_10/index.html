@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What the f is flexbox</title>
+    <link rel="stylesheet" href="./app.css">
+
+</head>
+
+<body>
+    <h1>let's learn flexbox</h1>
+
+    <h2>pengenalan flex direction</h2>
+    <div id="container">
+        <div style="background-color: #FFDEDE;"></div>
+        <div style="background-color: #FDF5CA;"></div>
+        <div style="background-color: #FFDFAF;"></div>
+        <div style="background-color: #F6A9A9;"></div>
+        <div style="background-color: #262A53;"></div>
+    </div>
+    <div class="tulisan">
+        <p>
+            jadi disini flex boxnya memiliki property flex direction --> column reverse
+        </p>
+    </div>
+
+    <h2>pengenalan justify content</h2>
+    <h3> 1. row-reverse | flex end</h3>
+    <div id="container2">
+        <div style="background-color: #FFDEDE;"></div>
+        <div style="background-color: #FDF5CA;"></div>
+        <div style="background-color: #FFDFAF;"></div>
+        <div style="background-color: #F6A9A9;"></div>
+        <div style="background-color: #262A53;"></div>
+    </div>
+
+
+    <h3> 2. row | center</h3>
+    <div id="container3">
+        <div style="background-color: #FFDEDE;"></div>
+        <div style="background-color: #FDF5CA;"></div>
+        <div style="background-color: #FFDFAF;"></div>
+        <div style="background-color: #F6A9A9;"></div>
+        <div style="background-color: #262A53;"></div>
+    </div>
+
+
+    <h3> 2. row | space-evenly </h3>
+    <div id="container4">
+        <div style="background-color: #FFDEDE;"></div>
+        <div style="background-color: #FDF5CA;"></div>
+        <div style="background-color: #FFDFAF;"></div>
+        <div style="background-color: #F6A9A9;"></div>
+        <div style="background-color: #262A53;"></div>
+    </div>
+
+    <h2>pengenalan Flex Wrap</h2>
+    <div class="tulisan">
+        <p>property flex-wrap hanya ada wrap, wrap reverse dimana yang di reverse adalah cross axis, bukan main axis,
+            dan yang terakhir adalah no wrap, yang sebenarnya gak perlu tp digunakan untuk formalitas</p>
+    </div>
+
+    <h3>1. row | flex-start | wrap</h3>
+    <div id="container5">
+        <div style="background-color: #FFDEDE;"></div>
+        <div style="background-color: #FDF5CA;"></div>
+        <div style="background-color: #FFDFAF;"></div>
+        <div style="background-color: #F6A9A9;"></div>
+        <div style="background-color: #262A53;"></div>
+        <div style="background-color: #CDF0EA;"></div>
+        <div style="background-color: #FFC93C;"></div>
+    </div>
+
+    <h3> 2. column | flex start | wrap reverse</h3>
+    <div id="container6">
+        <div style="background-color: #FFDEDE;"></div>
+        <div style="background-color: #FDF5CA;"></div>
+        <div style="background-color: #FFDFAF;"></div>
+        <div style="background-color: #F6A9A9;"></div>
+        <div style="background-color: #262A53;"></div>
+        <div style="background-color: #CDF0EA;"></div>
+        <div style="background-color: #FFC93C;"></div>
+    </div>
+
+
+</body>
+
+</html>
