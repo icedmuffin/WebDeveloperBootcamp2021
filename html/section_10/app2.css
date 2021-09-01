@@ -1,0 +1,135 @@
+h1, h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-weight: 400;
+    color: rgb(47, 47, 82);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+}
+.tulisan{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(217, 225, 231);
+}
+
+#container1{
+    background-color: rgb(83, 83, 85);
+    width: 90%;
+    /* height: 200px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+#container1 div{
+    height: 200px;
+    width: 200px;
+
+    
+}
+/* ----------------------------- */
+#container2{
+    background-color: rgb(83, 83, 85);
+    width: 90%;
+    /* height: 200px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+#container2 div{
+    height: 200px;
+    width: 200px;
+
+    /* flex-basis: 400px; */
+}
+#container2 div:nth-of-type(1){
+    flex-grow: 1;
+}
+
+/* ----------------------------- */
+#container3{
+    background-color: rgb(83, 83, 85);
+    width: 90%;
+    /* height: 300px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+#container3 div{
+    height: 200px;
+    width: 200px;
+    /* flex-basis: 200px; */
+    flex-grow: 1;
+
+    /* flex-basis: 400px; */
+}
+
+/* ----------------------------- */
+#container4{
+    background-color: rgb(83, 83, 85);
+    width: 90%;
+    /* height: 300px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /* flex-wrap: wrap; */
+
+}
+
+#container4 div{
+    height: 200px;
+    width: 200px;
+    flex-basis: 600px;
+
+    /* flex-basis: 400px; */
+}
+
+#container4 div:nth-of-type(1){
+    flex-shrink: 2;
+
+}
+
+/* flex short hand */
+main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section{
+    padding: 1rem;
+}
+main .sidebar{
+    background-color: rgb(233, 233, 233);
+    flex: 1 1.2 200px;
+    min-width: 100px;
+}
+
+main .content{
+    background-color: rgb(246, 246, 246);
+    flex: 1 800px;
+}
