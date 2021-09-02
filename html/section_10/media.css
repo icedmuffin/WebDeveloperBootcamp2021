@@ -1,0 +1,108 @@
+h1, h2{
+    text-align: center;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+    /* font-weight: 400; */
+    color: rgb(47, 47, 82);
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+p{
+    text-align: center;
+    margin: 0;
+}
+h1{
+    font-size: 2rem;
+    /* background-color: #393E46; */
+    color: #3765ad;
+    font-weight: 600;
+}
+.sidebar{
+    background-color : #E6E6E6;
+}
+
+.content{
+    background-color :#EEEEEE;
+}
+footer{
+    /* background-color: #EEEEEE; */
+    color: #393E46;
+}
+
+p, footer, .sidebar, .content {
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    padding : 1rem
+}
+
+main{
+    display: flex;
+}
+
+.kotak{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gambar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    border-radius: 1rem;
+}
+
+.text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.text h2{
+    font-size: 4rem;
+}
+
+@media (max-width:1024px) {
+    main{
+      flex-direction: column;
+    }
+    body{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:450px) {
+    .kotak{
+        flex-direction: column;
+    }
+    body{
+        /* color: orange; */
+        font-size: small;
+    }
+    p, footer, .sidebar, .content {
+        padding: 1rem;
+    }
+    h2{
+        font-size: 2.3rem;
+    }
+    .gambar{
+        min-height: 400px;
+    }
+}
