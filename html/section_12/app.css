@@ -1,3 +1,19 @@
 body{
     padding: 3rem;
 }
+
+.bone{
+    box-sizing:;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1px;
+    margin-top: 10px;
+}
+
+.img-fluid{
+    padding: 5px;
+    border-radius: 1em;
+    margin-top: 5px;
+    /* padding-top: 1rem; */
+}
