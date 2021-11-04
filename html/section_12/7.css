@@ -1,0 +1,24 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.text{
+    text-align: justify;
+
+}
+
+
+#custom-nav{
+    background-color: rgb(247, 247, 247);
+    
+}
+
+#custom-nav a{
+    color: rgb(113, 113, 113);
+}
+
+.btn{
+    background-color: rgb(97, 151, 244);
+    color: white;
+}
