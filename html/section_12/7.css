@@ -1,24 +1,40 @@
-body{
+body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 
-.text{
+.text {
     text-align: justify;
 
 }
 
 
-#custom-nav{
+#custom-nav {
     background-color: rgb(247, 247, 247);
-    
+
 }
 
-#custom-nav a{
+#custom-nav a {
     color: rgb(113, 113, 113);
 }
 
-.btn{
+.btn {
     background-color: rgb(97, 151, 244);
     color: white;
+}
+
+.custom1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding: 1.5rem;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+.custom1:hover {
+    /* background-color: red; */
+    width: 200px;
+    height: 200px;
+    padding: 3rem;
+    /* transform: rotate(180deg); */
 }
